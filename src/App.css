@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F7FB;
+    background-image: url("./assets/blobs-blue.png"), url("./assets/blobs-yellow.png");
+    background-repeat: no-repeat;
+    background-position: 0% 100%, 100% 0%;
+    background-size: 300px, 300px;
+}
+
+.start-game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #293264;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.button{
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
