@@ -1,1 +1,1 @@
-link to the live project : lkiryu-quizzical.netlify.app
+link to the live project : https://lkiryu-quizzical.netlify.app
